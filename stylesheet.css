@@ -5,17 +5,25 @@ body {
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(10, 8vw);
-  grid-template-rows: repeat(10, 8vw);
+  grid-template-columns: repeat(11, 6vw);
+  grid-template-rows: repeat(10, 6vw);
   grid-gap: 1vw;
 
   margin: 1vw 1vw;
 }
 
 .letter {
-  line-height: 8vw;
+  line-height: 6vw;
   font-family: 'Futura W01', helvetica, san-serif;
-  font-size: 4em;
+  font-size: 3em;
   text-align: center;
+  color: #2d2929;
+  background-color: #7bcced;
+
   border: 1px solid black;
+  box-shadow: 0.5rem 0.5rem #f04b3b;
+}
+
+.media {
+  grid-row: 3;
 }
