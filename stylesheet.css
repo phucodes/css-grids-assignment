@@ -4,6 +4,8 @@ body {
 }
 
 .grid-container {
+  padding: 0;
+
   list-style-type: none;
 
   display: grid;
@@ -12,6 +14,7 @@ body {
   grid-gap: 1vw;
 
   margin: 2em;
+  justify-content: center;
 }
 
 .letter {
