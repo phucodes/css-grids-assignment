@@ -27,3 +27,8 @@ body {
 .media {
   grid-row: 3;
 }
+
+.web {
+  background-color: #f04b3b;
+  box-shadow: -0.5rem 0.5rem #7bcced;
+}
