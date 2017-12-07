@@ -8,7 +8,7 @@ body {
 
   display: grid;
   grid-template-columns: repeat(11, 6vw);
-  grid-template-rows: repeat(10, 6vw);
+  grid-template-rows: repeat(3, 6vw);
   grid-gap: 1vw;
 
   margin: 2em;
@@ -34,7 +34,7 @@ body {
 .web {
   color: #ecf0f1;
   background-color: #f04b3b;
-  box-shadow: -0.5rem 0.5rem #7bcced;
+  box-shadow: 0.5rem 0.5rem #7bcced;
   grid-row: 2;
 }
 
@@ -96,3 +96,11 @@ li:nth-child(26) {
 li:nth-child(27) {
   grid-column: 2/ 4;
 }
+
+/*.contact {
+  grid-column: 9/ span 3;
+  padding: 20px 0 0 20px;
+
+  font-family: 'Futura W01', helvetica, san-serif;
+
+}*/
