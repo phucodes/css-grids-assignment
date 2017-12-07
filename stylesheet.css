@@ -99,11 +99,3 @@ li:nth-child(26) {
 li:nth-child(27) {
   grid-column: 12/10;
 }
-
-/*.contact {
-  grid-column: 9/ span 3;
-  padding: 20px 0 0 20px;
-
-  font-family: 'Futura W01', helvetica, san-serif;
-
-}*/
