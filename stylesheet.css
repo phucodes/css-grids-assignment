@@ -16,7 +16,7 @@ body {
 
 .letter {
   line-height: 6vw;
-  font-family: 'Futura W01', helvetica, san-serif;
+  font-family: "Frutiger Neue W02 Book",Arial,Helvetica,sans-serif;
   font-weight: 600;
   font-size: 3em;
   text-align: center;
@@ -81,4 +81,18 @@ li:nth-child(24) {
 li:nth-child(25) {
   grid-row: 5;
   grid-column: 11;
+}
+
+.degree {
+  grid-row: 4 / 6;
+
+  font-size: 12em;
+}
+
+li:nth-child(26) {
+  grid-column: 1 / 3;
+}
+
+li:nth-child(27) {
+  grid-column: 2/ 4;
 }
