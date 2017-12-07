@@ -4,6 +4,8 @@ body {
 }
 
 .grid-container {
+  list-style-type: none;
+
   display: grid;
   grid-template-columns: repeat(11, 6vw);
   grid-template-rows: repeat(10, 6vw);
@@ -29,6 +31,8 @@ body {
 }
 
 .web {
+  color: #ecf0f1;
   background-color: #f04b3b;
   box-shadow: -0.5rem 0.5rem #7bcced;
+  grid-row: 5;
 }
