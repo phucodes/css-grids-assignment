@@ -10,7 +10,7 @@ body {
 
   display: grid;
   grid-template-columns: repeat(11, 6vw);
-  grid-template-rows: repeat(5, 6vw);
+  grid-template-rows: repeat(3, 6vw);
   grid-gap: 1vw;
 
   margin: 2em;
@@ -98,4 +98,68 @@ li:nth-child(26) {
 
 li:nth-child(27) {
   grid-column: 12/10;
+}
+
+.body-grid {
+  display: grid;
+  grid-template-columns: repeat(11, 6vw);
+  grid-template-rows: repeat(7, 6vw);
+  grid-gap: 1vw;
+
+  margin: 2em;
+  justify-content: center;
+}
+
+.body-grid a {
+  text-decoration: none;
+  color: #2d2929;
+}
+
+.body-item:nth-child(1) {
+  background-color: #ff6138;
+  grid-column: 1 / span 3;
+  grid-row: 1/ span 3;
+}
+
+.body-item:nth-child(2) {
+  background-color: #ffff9d;
+  grid-column: 5 / span 3;
+  grid-row: 1/ span 3;
+}
+
+.body-item:nth-child(3) {
+  background-color: #beeb9f;
+  grid-column: 9 / span 3;
+  grid-row: 1/ span 3;
+}
+
+.body-item:nth-child(4) {
+  background-color: #beeb9f;
+  grid-column: 1 / span 3;
+  grid-row: 5/ span 3;
+}
+
+.body-item:nth-child(5) {
+  background-color: #beeb9f;
+  grid-column: 5 / span 3;
+  grid-row: 5/ span 3;
+}
+
+.body-item:nth-child(5) {
+  background-color: #beeb9f;
+  grid-column: 5 / span 3;
+  grid-row: 5/ span 3;
+}
+
+.body-item:nth-child(6) {
+  background-color: #beeb9f;
+  grid-column: 9 / span 3;
+  grid-row: 5/ span 3;
+}
+
+.body-item p {
+  margin: 0;
+  line-height: 20vw;
+  text-align: center;
+  font-size: 2vw;
 }
