@@ -1,0 +1,31 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Anonymous Pro', monospace;
+  font-weight: 400;
+}
+
+.grid-container {
+  display: grid;
+
+  grid-template-columns: repeat(11, 6vw);
+  grid-template-rows: repeat(11, 6vw);
+  justify-content: center;
+}
+
+.item {
+  line-height: 6vw;
+  font-size: 3rem;
+}
+
+.item p {
+  margin: 0;
+}
+
+.item:nth-child(1) p {
+  text-align: right;
+}
+
+.item:nth-child(2) {
+  grid-column: 2/ span 5;
+}
