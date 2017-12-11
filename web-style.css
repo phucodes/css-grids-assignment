@@ -148,7 +148,7 @@ body {
   width: calc(100% / 3 - 2vw);
   line-height: 6vw;
   margin: 0 1vw;
-  background-color: beige;
+  background-color: #f5f5dc;
   font-weight: 400;
   font-family: 'Anonymous Pro', monospace;
 }
