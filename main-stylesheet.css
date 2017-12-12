@@ -114,6 +114,8 @@ li:nth-child(27) {
 .body-grid a {
   text-decoration: none;
   color: #2d2929;
+  font-weight: 300;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
 .body-item:nth-child(1) {
